@@ -1,0 +1,21 @@
+{
+  "name": "campusnav",
+  "version": "0.0.1",
+  "description": "Navigation system for students at University of Ghana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "knex --debug migrate:latest"
+  },
+  "keywords": [
+    "Navigation"
+  ],
+  "author": "Khadijah Brimah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "mysql": "^2.15.0"
+  }
+}
